@@ -3271,6 +3271,10 @@ textarea.input {
     background: #fff;
   }
 
+  .new_page_header_button_second {
+    display: none;
+  }
+
   .new_page_header_body.active {
     background: #fff;
   }
