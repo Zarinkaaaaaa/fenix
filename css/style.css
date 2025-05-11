@@ -3277,6 +3277,7 @@ textarea.input {
 
   .new_page_header_body.active {
     background: #fff;
+    padding-top: 80px;
   }
 
   .new_page_header_list {
