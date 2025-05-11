@@ -3819,6 +3819,7 @@ textarea.input {
   font-weight: 500;
   font-size: 20px;
   line-height: 110%;
+  color: #FF7A00;
 }
 
 .modul_section_nav {
@@ -4354,21 +4355,21 @@ textarea.input {
 }
 
 .information_section_content_info_items_item {
-  background: #191919;
+  background: #fbfbfb;
   padding: 20px;
   font-weight: 400;
   font-size: 16px;
-  color: #fff;
+  color: #000;
   border-bottom: 1px solid #e27715;
   width: 504px;
 }
 
 .information_section_content_info_items_item_2 {
-  background: #191919;
+  background: #fbfbfb;
   padding: 20px;
   font-weight: 400;
   font-size: 16px;
-  color: #fff;
+  color: #000;
   border-bottom: 1px solid #e27715;
   width: 504px;
   text-align: right;
@@ -4384,6 +4385,65 @@ textarea.input {
   color: #e27715;
   text-decoration: underline;
   padding-top: 85px;
+}
+
+@media (max-width: 650px) {
+  .information_section {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .information_section_nav {
+    width: 100%;
+    order: 2;
+    /* Перемещаем навигацию вниз */
+  }
+
+  .information_section_nav a {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 13px;
+  }
+
+  .information_section_content {
+    width: 100%;
+  }
+
+  .information_section_content h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .information_section_content .information_subtext {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .information_section_content_info_items {
+    flex-direction: column;
+  }
+
+  .information_section_content_info_items_item,
+  .information_section_content_info_items_item_2 {
+    width: 100%;
+    padding: 15px;
+    text-align: left !important;
+    /* Важно переопределить выравнивание */
+  }
+
+  .license,
+  .acredit {
+    padding-top: 15px !important;
+  }
+
+  .information_section_content_info_items_item p,
+  .information_section_content_info_items_item_2 p {
+    font-size: 14px;
+  }
+
+  .new_page_footer {
+    margin-top: 109px;
+  }
 }
 
 /*ДАННЫЕ ОРГАНИЗАЦИИ*/
