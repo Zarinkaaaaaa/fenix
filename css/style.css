@@ -3260,6 +3260,7 @@ textarea.input {
   font-size: 16px;
   color: #1d1d1d;
   text-align: center;
+  cursor: pointer;
 }
 
 .new_page_header_list {
@@ -3273,6 +3274,9 @@ textarea.input {
 
   .new_page_header_button_second {
     display: none;
+  }
+  .new_page_header_body.active .new_page_header_button_second{
+    display: block;
   }
 
   .new_page_header_body.active {
