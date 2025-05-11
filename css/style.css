@@ -3418,18 +3418,20 @@ textarea.input {
   font-weight: 400;
   font-size: 14px;
   line-height: 110%;
-  color: #fff;
-  border: 0.5px solid #fff;
+  color: #1d1d1d;
+  border: 1px solid #1d1d1d;
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0.5;
 }
 
 .category_navs .orange_nav {
   background-color: #ff7a00;
   color: #fff;
   border: 0.5px solid #ff7a00;
+  opacity: 1;
 }
 
 .category_navs a:hover {
@@ -3437,6 +3439,7 @@ textarea.input {
   color: #fff;
   border: 0.5px solid #ff7a00;
   transition: 0.8s;
+  opacity: 1;
 }
 
 .category_items {
@@ -3525,7 +3528,7 @@ textarea.input {
 .category_item_prices {
   border-radius: 8px;
   width: 279px;
-  height: 247px;
+  height: 210px;
   box-shadow: -6px 0 8px 0 rgba(0, 0, 0, 0.05);
   background: #fff;
   padding: 24px 0px 0px 24px;
@@ -3640,6 +3643,11 @@ textarea.input {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 0;
+  }
+
+  .category_item_content_bottom {
+    margin-top: 5px;
   }
 
   .category_navs a {
@@ -3663,7 +3671,7 @@ textarea.input {
 
   .category_item_content {
     width: 100%;
-    margin: 15px 0 0 0;
+    margin: 0px 0 0 0;
   }
 
   .category_item_content h4 {
@@ -3677,8 +3685,8 @@ textarea.input {
 
   .category_item_prices {
     width: 100%;
-    margin: 20px 0 0 0;
-    padding: 15px;
+    margin: 0px;
+    padding: 0px;
     box-shadow: none;
   }
 
